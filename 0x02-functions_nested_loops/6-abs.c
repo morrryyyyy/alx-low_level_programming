@@ -2,7 +2,7 @@
 
 /**
  * _abs - prints the absolute value of a number
- * @int: the number to be checked
+ * @n: the number to be checked
  *
  * Return: Always 0 (Success)
  */
@@ -15,7 +15,7 @@ int _abs(int n)
 	}
 	else if (n < 0)
 	{
-		return(-n);
+		return (-n);
 	}
 	else
 	{
