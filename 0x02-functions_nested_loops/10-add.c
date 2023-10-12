@@ -5,7 +5,7 @@
  * @n: the first integer
  * @i: the second integer
  *
- * Return: Always 0 (Success)
+ * Return: The result of the addition
  */
 int add(int n, int i)
 {
