@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _pow_recursion - a function that returns the power of @x by @y x^y
  *
