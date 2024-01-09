@@ -4,7 +4,9 @@
  * _strncat - appends n characters from src string to dest string
  *@dest: the destination string
  *@src: the source string
- *n: the number of characters to be appended
+ *@n: the number of characters to be appended
+ *
+ * Return: the resulting string
  **/
 char *_strncat(char *dest, char *src, int n)
 {
