@@ -1,0 +1,1 @@
+Inside this folder, we continue practicing on the applications of pointers, arrays and strings. Inside this folder, you would see my version of some built-in C functions whilst still exploring the use of pointers, arrays and strings. 
