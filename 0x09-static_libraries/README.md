@@ -1,0 +1,1 @@
+This folder contains my solutions to the alx static libraries tasks
