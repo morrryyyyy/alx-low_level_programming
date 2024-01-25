@@ -1,13 +1,11 @@
-#include <stdio.h>
-#include <stdarg.h>
-#include <stdlib.h>
+#include "variadic_functions.h"
 
 /**
  * print_numbers - print all numbers passed to it as arguments
- *@seperator: the seperator of the numbers
+ *@separator: the seperator of the numbers
  *@n: the number of arguments
  */
-void print_numbers(const char *seperator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	int x;
@@ -20,9 +18,9 @@ void print_numbers(const char *seperator, const unsigned int n, ...)
 		x = va_arg(nums, int);
 
 		printf("%d", x);
-		if ((seperator != NULL) && (i != (n - 1)))
-			printf("%s", seperator);
+		if ((separator != NULL) && (i != (n - 1)))
+			printf("%s", separator);
 	}
-	putchar('\n');
+	printf("\n");
 	va_end(nums);
 }
