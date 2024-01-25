@@ -2,7 +2,7 @@
 
 /**
  * print_strings - print the strings passed to it as arguments
- *@seperator: the seperator of the arguments
+ *@separator: the seperator of the arguments
  *@n: the number of arguments
  */
 void print_strings(const char *separator, const unsigned int n, ...)
