@@ -2,6 +2,11 @@
 #include <stdio.h>
 #include <stdarg.h>
 
+/**
+ * print_all - print anything
+ * @format: format specifier
+ */
+
 void print_all(const char *const format, ...)
 {
 	va_list args;
