@@ -4,7 +4,6 @@
  * print_all - print anything
  * @format: format specifier
  */
-
 void print_all(const char *const format, ...)
 {
 	va_list args;
@@ -13,7 +12,6 @@ void print_all(const char *const format, ...)
 	char *str;
 
 	va_start(args, format);
-
 	while (format[i] != '\0' && format != NULL)
 	{
 		switch (format[i])
@@ -33,9 +31,7 @@ void print_all(const char *const format, ...)
 		case 's':
 			str = va_arg(args, char *);
 			if (str == NULL)
-			{
 				str = "(nil)";
-			}
 			printf("%s", str);
 			flag = 0;
 			break;
